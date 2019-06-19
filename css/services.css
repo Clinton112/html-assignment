@@ -1,0 +1,90 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+  background-color: rgb(27, 156, 179);
+  
+}
+.f1{
+  position: fixed;
+  overflow: hidden;
+  background: #20c9bb;
+  top: 0;
+  width: 100%;
+}
+li {
+  float: left;
+}
+* {
+  box-sizing: border-box;
+}
+body background{
+  background-repeat: no-repeat;
+}
+
+.foot{
+    text-align: center;
+    text-indent: 0%;
+    padding-left: 0;
+    color: rgb(182, 226, 24);
+}
+#foot1 li{
+  color: darkred;
+  background-color: rgb(35, 181, 218);
+  float: none;
+  display: inline;
+}
+li a {
+  display: block;
+  color: rgb(158, 223, 83);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+para{
+  text-align: justify;
+  padding: 20px;
+}
+li a:hover:not(.active) {
+  background-color: rgb(211, 17, 17);
+}
+
+.active {
+  background-color: rgb(201, 59, 34);
+}
+.container_12 {
+  display: flex;
+  background-color: rgb(63, 189, 182);
+  position: relative;
+  font-size: 20px;
+  padding:100px;
+  margin: 100px;
+
+}
+h1{
+  color: aliceblue;
+}
+.container_12 > div {
+  background-color: #634242;
+  display: flex;
+  margin: 40px;
+  padding: 20px;
+  font-size: 30px;
+}
+.grid_4{
+  margin: auto;
+  padding: 20px;
+}
+.grid_6{
+  margin: auto;
+  padding: 20px;
+}
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 102px;
+}
