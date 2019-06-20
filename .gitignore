@@ -2,12 +2,13 @@
 # Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
 # Useful .gitignore templates: https://github.com/github/gitignore
 *.xml
-js/
-doc/
+*.ico
 *.php
 *.txt
+js/
+doc/
 404.html
 icon.png
 tile.png
 tile-wide.png
-*.ico
+
